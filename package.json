@@ -1,0 +1,19 @@
+{
+  "name": "codinginterview",
+  "version": "1.0.0",
+  "description": "containes coding interview concepts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rakesh190/codingInterview.git"
+  },
+  "author": "Rakesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rakesh190/codingInterview/issues"
+  },
+  "homepage": "https://github.com/rakesh190/codingInterview#readme"
+}
