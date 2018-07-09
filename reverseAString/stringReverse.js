@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 function reverseAStringByMethod(string){
     return string
@@ -6,7 +6,7 @@ function reverseAStringByMethod(string){
         .reverse()
         .join('');
 }
-console.log(reverseAStringByMethod('apple')) // elppa
+console.log(reverseAStringByMethod('apple')); // elppa
 
 function reverseStringByForLoop(string){
     let reversedString = '';
@@ -18,10 +18,10 @@ function reverseStringByForLoop(string){
 
 console.log(reverseStringByForLoop('rakesh'));
 
-function reverseAStringByReduceMethod(string){
-     string.split('').reduct((reversed, char)=> {
-        return char+reversed;
-    }, '');
-}
-
-console.log(reverseStringByForLoop('santhos'))
+// function reverseAStringByReduceMethod(string){
+//      string.split('').reduce((reversed, char)=> {
+//         return char+reversed;
+//     }, '');
+// }
+//
+// console.log(reverseAStringByReduceMethod('santhos'));
